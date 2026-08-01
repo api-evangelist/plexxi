@@ -1,8 +1,25 @@
 aid: plexxi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plexxi.png
 name: Plexxi *
-description: 'Plexxi * is a company surfaced as a portfolio company of gv, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Plexxi was a software-defined networking (SDN) startup building
+  data-center fabric and network orchestration, backed by GV and Lightspeed Venture
+  Partners. It was acquired by Hewlett Packard Enterprise (HPE) and folded into the
+  Aruba Networks / HPE data-center portfolio; plexxi.com now 301-redirects to
+  arubanetworks.com. As of this enrichment pass Plexxi has no independent, live
+  developer surface: no developer portal, documentation, OpenAPI/AsyncAPI, SDKs, or
+  other API artifacts remain reachable. This record is retained for network lineage
+  and its venture-portfolio provenance rather than any active API.'
 url: https://raw.githubusercontent.com/api-evangelist/plexxi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,19 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: hpe
+x-redirects-to: https://www.arubanetworks.com/solutions/data-center-modernization/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Networking
+- SDN
+- Data Center
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +49,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://plexxi.com
+  url: https://www.arubanetworks.com/solutions/data-center-modernization/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
