@@ -50,7 +50,7 @@ tags:
 - Enterprise
 - Networking
 - SDN
-- Data-Center
+- Data Center
 - Acquired
 tags_raw:
 - Company
@@ -59,6 +59,7 @@ tags_raw:
 - SDN
 - Data Center
 - Acquired
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
